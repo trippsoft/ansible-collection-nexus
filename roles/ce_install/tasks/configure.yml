@@ -81,5 +81,5 @@
       - 204
       - 404
   register: _nexus_ce_remove_default_repository
-  changed_when: 
+  changed_when:
     - _nexus_ce_remove_default_repository.status | int == 204
