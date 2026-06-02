@@ -1,0 +1,11 @@
+---
+_nexus_ce_os_is_tested: false
+_nexus_ce_default_configure_selinux: true
+_nexus_ce_default_firewall_type: firewalld
+
+_nexus_ce_default_tmp_path: /var/tmp/nexus
+
+_nexus_ce_selinux_packages:
+  - policycoreutils
+  - python3-libsemanage
+  - selinux-policy-devel

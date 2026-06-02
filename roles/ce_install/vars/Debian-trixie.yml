@@ -1,5 +1,5 @@
 ---
-_nexus_ce_os_is_tested: false
+_nexus_ce_os_is_tested: true
 _nexus_ce_default_configure_selinux: false
 _nexus_ce_default_firewall_type: firewalld
 
